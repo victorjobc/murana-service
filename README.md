@@ -40,15 +40,4 @@
 
 ### Diagrama de la solución
 
-```mermaid
-graph TD;
-    Cliente-->Controlador;
-    Controlador-->Servicio;
-    Servicio-->Repositorio;
-    Repositorio-->BD[Base de Datos];
-    Servicio-->JWT;
-    JWT-->Controlador;
-    Controlador-->Cliente;
-
-    classDef default fill:#f9f,stroke:#333,stroke-width:4px;
-    class Controlador,Servicio,Repositorio,JWT default
+![img_3.png](img_3.png)
